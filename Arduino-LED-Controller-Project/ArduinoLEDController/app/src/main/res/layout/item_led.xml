@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/card_bg"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/ledDot"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/dot" />
+
+        <TextView
+            android:id="@+id/ledName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOn"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:backgroundTint="@color/green"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOff"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:backgroundTint="@color/grey"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
+</LinearLayout>

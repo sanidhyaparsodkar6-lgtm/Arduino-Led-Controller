@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0B0F17</color>
+    <color name="card">#151B28</color>
+    <color name="green">#22C55E</color>
+    <color name="red">#EF4444</color>
+    <color name="grey">#374151</color>
+    <color name="blue">#3B82F6</color>
+    <color name="purple">#8B5CF6</color>
+    <color name="amber">#F59E0B</color>
+    <color name="text">#E5E7EB</color>
+    <color name="subtext">#9CA3AF</color>
+</resources>
